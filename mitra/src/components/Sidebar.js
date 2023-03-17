@@ -3,7 +3,7 @@ import React from 'react';
 const Sidebar = () => {
     return (
         <div>
-            <div className="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style={{width: "280px", display:"inline", position:"fixed"}}>
+            <div className="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style={{width: "280px", display:"inline", position:"fixed", minHeight:"100%"}}>
     <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
       <svg className="bi me-2" width="40" height="32"></svg>
       <span className="fs-3">MITRA</span>
