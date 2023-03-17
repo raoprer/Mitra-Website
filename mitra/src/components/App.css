@@ -4,26 +4,31 @@
 
 /* #FFE663  #F9A826*/
 
+h1{
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 150px;
+}
+
 #circle-1,
 #circle-2,
 #circle-3
 {
-  min-width: 300px;
-  height: 300px;
+  min-width: 250px;
+  height: 250px;
   mix-blend-mode: multiply;
-  filter: blur(10px);
+  filter: blur(20px);
 }
 
 #circle-1 {
   background-color: rgba(238, 255, 0, 0.4);
-  right: 3rem;
+  right: 5.5rem;
   top: 9rem;
 }
 
 #circle-2 {
   background-color: rgba(0, 238, 255, 0.4);
   right: 8rem;
-  top: 12rem;
+  top: 13rem;
 }
 
 #circle-3 {
@@ -59,8 +64,8 @@
   animation-delay: 2s;
 }
 
-.delay-3 {
-  animation-delay: 3s;
+.delay-4 {
+  animation-delay: 4s;
 }       
 
 .icons{
