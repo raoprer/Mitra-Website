@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+/* #FFE663  #F9A826*/
+
+#circle-1,
+#circle-2,
+#circle-3
+{
+  min-width: 300px;
+  height: 300px;
+  mix-blend-mode: multiply;
+  filter: blur(10px);
+}
+
+#circle-1 {
+  background-color: rgba(238, 255, 0, 0.4);
+  right: 3rem;
+  top: 9rem;
+}
+
+#circle-2 {
+  background-color: rgba(0, 238, 255, 0.4);
+  right: 6rem;
+  top: 12rem;
+}
+
+#circle-3 {
+  background-color: rgb(0, 225, 0, 0.4);
+  right: 8rem;
+  top: 10rem;
+}
+
+.scale-up-center {
+  animation: scale-up-center 7s cubic-bezier(0.39, 0.575, 0.565, 1) infinite
+    both;
+}
+
+@keyframes scale-up-center {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  20% {
+    transform: translate(40px, -50px) scale(1.1);
+  }
+  50% {
+    transform: translate(-30px, 20px) scale(0.9);
+  }
+  80%{
+    transform: translate(45px, -45px) scale(1.4);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.delay-2 {
+  animation-delay: 2s;
+}
+
+.delay-4 {
+  animation-delay: 4s;
+}                   
