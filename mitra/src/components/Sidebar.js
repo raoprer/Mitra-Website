@@ -4,11 +4,7 @@ import logo from '../images/logo.png';
 const Sidebar = () => {
     return (
         <div>
-          <button id="menu-btn" class="hamburger block">
-            <span class="hamburger-top"></span>
-            <span class="hamburger-middle"></span>
-            <span class="hamburger-bottom"></span>
-          </button>
+          <i class="fa-solid fa-bars fa-2xl icons hamburger"></i>
           <div className="d-flex flex-column flex-shrink-0 p-3 text-white side-bar left-pane">
             <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
               <img className='logo-img' src={logo} alt='MITRA'></img>

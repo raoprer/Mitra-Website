@@ -40,6 +40,12 @@ h3{
 }
 
 @media (max-width:785px){
+  .hamburger{
+    visibility: visible;
+  }
+}
+
+@media (max-width:785px){
   .left-pane{
     visibility: hidden;
     width: 100% !important;
