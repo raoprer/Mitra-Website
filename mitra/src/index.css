@@ -17,5 +17,18 @@ h1{
   font-family: 'Cedarville Cursive', cursive;
   font-size: 150px;
   color: white;
+  filter: drop-shadow(0 0 0.2rem #BFDCE5);
   padding: 6rem 1.5rem;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  background: -webkit-linear-gradient(#3E54AC, #AD7BE9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+/* font-family: 'Nunito', sans-serif; */
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  padding: 2rem 2rem;
 }
