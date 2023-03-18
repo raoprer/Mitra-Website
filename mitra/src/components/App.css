@@ -72,3 +72,85 @@ h1{
   margin: 1rem 1rem 1.5rem 0rem;
   color: white;
 }
+
+/* LOGIN PAGE */
+#loginDiv{
+width: 360px;
+height: 640px;
+padding-top: 10%;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+}
+
+#namasteLogin{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 5%;
+  color: #000000;
+  margin-top: 15%;
+}
+
+#formName{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 5%;
+  color: #000000;
+  
+}
+
+#loginName{
+  margin-top: 5%;
+}
+
+#formNumber{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 5%;
+  color: #000000;
+
+}
+#loginPh{
+  margin-top: 5%;
+}
+#loginButton{
+  width: 171px;
+  height: 26px;
+  left: 93px;
+  top: 380px;
+  margin-top: 8%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  
+  color:#FFFFFF;
+  background: #3E54AC;
+  border-radius: 30px;
+}
+
+#namasteImg{
+  width: 43px;
+  height: 33px;
+  left: 249px;
+  top: 66px;
+  padding-bottom:1%;
+}
+
+.signupLogin
+{
+  text-decoration: underline;
+  margin-top: 7%;
+}
+
+.backgroundLoginImage{
+  height:100vh;
+  background-image: url("finalRobot.jpg");
+  background-size: 100% 100%; 
+}  

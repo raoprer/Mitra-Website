@@ -1,0 +1,258 @@
+/* Login page */
+
+position: relative;
+width: 360px;
+height: 640px;
+
+background: #FFFFFF;
+
+
+/* Namaste  */
+
+position: absolute;
+width: 198px;
+height: 43px;
+left: 94px;
+top: 61px;
+
+
+
+/* image 1 */
+
+position: absolute;
+width: 43px;
+height: 33px;
+left: 249px;
+top: 66px;
+
+background: url(image.png);
+
+
+/* NAMASTE */
+
+position: absolute;
+width: 198px;
+height: 43px;
+left: 94px;
+top: 61px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 42px;
+
+color: #000000;
+
+
+
+/* Your Name : */
+
+position: absolute;
+width: 177px;
+height: 24px;
+left: 41px;
+top: 138px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+
+color: #000000;
+
+
+
+/* Your Phone Number : */
+
+position: absolute;
+width: 239px;
+height: 37px;
+left: 41px;
+top: 255px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+
+color: #000000;
+
+
+
+/* Name box */
+
+position: absolute;
+width: 283px;
+height: 31px;
+left: 39px;
+top: 189px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 282px;
+height: 31px;
+left: 40px;
+top: 189px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* name... */
+
+position: absolute;
+width: 282px;
+height: 31px;
+left: 39px;
+top: 189px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+
+color: #B8AFAF;
+
+
+
+/* Phone number box */
+
+position: absolute;
+width: 282px;
+height: 31px;
+left: 39px;
+top: 305px;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 280px;
+height: 30px;
+left: 41px;
+top: 305px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* phone number... */
+
+position: absolute;
+width: 280px;
+height: 31px;
+left: 39px;
+top: 305px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+
+color: #B8AFAF;
+
+
+
+/* Login button */
+
+position: absolute;
+width: 171px;
+height: 26px;
+left: 93px;
+top: 380px;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 171px;
+height: 26px;
+left: 93px;
+top: 380px;
+
+background: #3E54AC;
+border-radius: 30px;
+
+
+/* LOGIN */
+
+position: absolute;
+width: 170px;
+height: 25px;
+left: 94px;
+top: 381px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 360px;
+height: 146px;
+left: 0px;
+top: 494px;
+
+background: #AD7BE9;
+
+
+/* New to Mitra? Sign up here */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 248px;
+height: 34px;
+left: 55px;
+top: 443px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+text-decoration-line: underline;
+
+color: #000000;
+
+border: 1px solid #000000;
+
+
+/* LOGO WILL COME HERE */
+
+position: absolute;
+width: 180px;
+height: 36px;
+left: 84px;
+top: 540px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+
