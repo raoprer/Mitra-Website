@@ -8,10 +8,10 @@ const HomePage = () => {
                 <div class="container-fluid align-items-center justify-content-between right-pane">
                     <h1><strong>Hey,<br></br>Mitra</strong></h1>
                 </div>
-            </section>
-            <div className='container-fluid right-pane'>
+            <div className='right-pane'>
                 <Features/>
             </div>
+            </section>
             {/* <div id="circle-1" class="rounded-circle position-absolute scale-up-center"></div>
             <div id="circle-2" class="rounded-circle position-absolute scale-up-center delay-2"></div>
             <div id="circle-3" class="rounded-circle position-absolute scale-up-center delay-4"></div>         */}
