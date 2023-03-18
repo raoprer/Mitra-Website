@@ -1,12 +1,18 @@
 import React from 'react';
+import logo from '../images/logo.png';
 
 const Sidebar = () => {
     return (
         <div>
+          <button id="menu-btn" class="hamburger block">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
           <div className="d-flex flex-column flex-shrink-0 p-3 text-white side-bar left-pane">
             <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-              {/* logo space */}
-              <span className="fs-3">MITRA</span>
+              <img className='logo-img' src={logo} alt='MITRA'></img>
+              <span className="fs-3"><h3>Mitra</h3></span>
             </a>
             <hr/>
             <ul className="nav nav-pills flex-column mb-auto">

@@ -26,7 +26,7 @@
 }
 
 .top-pane{
-  
+  visibility: hidden;
 }
 
 /* Circles */
@@ -107,8 +107,70 @@
   z-index: -1;
 }
 
+/* Hamburger */
+#menu-btn{
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+
+.hamburger{
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  transition: all 0.25s;
+  border: none;
+  background-color: rbg(0,0,0,0);
+}
+
+.hamburger-top, .hamburger-middle, .hamburger-bottom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 2px;
+  background: #FFFFFF;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle{
+  transform: translateY(7px);
+}
+
+.hamburger-bottom{
+  transform: translateY(14px);
+}
+
+.open{
+  transform: rotate(90deg) translateY(0px);
+}
+
+.open .hamburger-top{
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+.open .hamburger-middle{
+  display: none;
+}
+
+.open .hamburger-bottom{
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
 /* Sidebar */
 .icons{
   margin: 1rem 1rem 1.5rem 0rem;
   color: white;
+}
+
+.logo-img{
+  max-height: 3.5rem;
+  padding-right: 0.5rem;
+}
+
+.logo-img-nav{
+  max-height: 3.5rem;
+  padding-right: 0.5rem;
+  visibility: hidden;
 }
