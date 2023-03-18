@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Sidebar/>
-      <div className='container-fluid'><HomePage/></div>
+      <HomePage/>
     </div>
   );
 }
