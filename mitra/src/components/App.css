@@ -3,14 +3,18 @@
 }
 
 /* #AD7BE9  #3E54AC #BFDCE5 #EEEEEE*/
-/* #37306B #66347F #9E4784 #D27685 */
 
 .right-pane{
   padding-left: 260px;
 }
 
-.right-pane-white{
+.bg-white{
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.bg-gradient{
+  color:#BFDCE5 ;
+  background-color: #3E54AC;
 }
 
 .left-pane{

@@ -6,9 +6,10 @@ import socialize from '../images/socialize.svg';
 const Features = () => {
     return (
         <div>
-            <section className=' right-pane-white container-fluid '>
+            <section className='bg-white container-fluid '>
                 <div className='row'>
-                    <h2>I'll be there for you</h2>
+                    <h2>I'll be there for you</h2><br></br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus elit a quam pharetra, at hendrerit massa mattis. Sed quis pulvinar neque. Curabitur porta est a sagittis imperdiet. Mauris eu fringilla orci. Nullam consectetur sapien viverra massa aliquam, eu imperdiet purus pellentesque. Donec a libero non dolor dignissim dapibus nec ac lacus. Integer dolor purus, consequat nec volutpat nec, commodo ut dui.</p><br/>
                 </div>
                 <div className='row'  style={{textAlign:"center"}}>
                     <div className='col-lg-4  p-4'>

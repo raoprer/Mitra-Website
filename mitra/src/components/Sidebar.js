@@ -34,6 +34,12 @@ const Sidebar = () => {
                   <span className="fs-5">Socialize</span>
                 </a>
               </li>
+              <li>
+                <a href="#" className="nav-link text-white">
+                <i class="fa-solid fa-user-doctor fa-lg icons"></i>
+                  <span className="fs-5">Consult Doctor</span>
+                </a>
+              </li>
               <hr/>
               <li>
                 <a href="#" className="nav-link text-white">
