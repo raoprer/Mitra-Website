@@ -143,3 +143,8 @@
   max-height: 3.5rem;
   padding-right: 0.5rem;
 }
+
+/* Post card */
+.card-img-top{
+  max-height: 10rem;
+}

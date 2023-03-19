@@ -9,7 +9,7 @@ const Posts = (props) => {
     })
     return (
         <div className='right-pane'>
-            <div className='row'>{RenderPost}</div>
+            <div className='row p-3'>{RenderPost}</div>
         </div>
     )
 }

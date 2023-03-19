@@ -39,6 +39,18 @@ h3{
   font-size: 35px;
 }
 
+.btn{
+  background: -webkit-linear-gradient(#3E54AC, #AD7BE9);
+  -webkit-background-clip: fill;
+  color: #FFFFFF;
+}
+
+.btn:hover{
+  background: -webkit-linear-gradient(#AD7BE9,#3E54AC);
+  -webkit-background-clip: fill;
+  color: #FFFFFF;
+}
+
 @media (max-width:785px){
   .hamburger{
     visibility: visible;
