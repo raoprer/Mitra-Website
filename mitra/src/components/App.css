@@ -119,6 +119,21 @@
 }
 
 /* Sidebar */
+.nav-link{
+  color: #FFFFFF;
+}
+
+.nav-link::after{
+  color: #FFFFFF;
+}
+
+.nav-item-hover{
+  background: -webkit-linear-gradient(rgb(244, 213, 0), rgb(255,13, 0));
+  -webkit-background-clip: fill;
+  color: #FFFFFF;
+  border-radius: 0.5rem;
+}
+
 .icons{
   margin: 1rem 1rem 1.5rem 0rem;
   color: white;

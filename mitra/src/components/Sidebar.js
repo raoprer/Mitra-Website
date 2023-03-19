@@ -1,50 +1,58 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../images/logo.png';
-import Posts from './Posts';
+
+function hoverIn(e) {
+  e.target.style.backgroundColor = '#3E54AC';
+}
+
+function hoverOut(e) {
+  e.target.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+}
 
 const Sidebar = () => {
     return (
         <div>
           <i class="fa-solid fa-bars fa-2xl icons hamburger"></i>
-          <div className="d-flex flex-column flex-shrink-0 p-3 text-white side-bar left-pane">
-            <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+          <div className="d-flex flex-column flex-shrink-0 p-3 text-white left-pane">
+            <Link to="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
               <img className='logo-img' src={logo} alt='MITRA'></img>
               <span className="fs-3"><h3>Mitra</h3></span>
-            </a>
+            </Link>
             <hr/>
             <ul className="nav nav-pills flex-column mb-auto">
-              <li className="nav-item">
-                <a href="#" className="nav-link active" aria-current="page">
+              <li className="nav-item" onMouseOver={hoverIn} onMouseOut={hoverOut}>
+                <Link to='/' className="nav-link" aria-current="page">
                 <i class="fa-solid fa-house fa-lg icons"></i>
                   <span className="fs-5">Home</span>
-                </a>
+                </Link>
               </li>
-              <li>
+              <li onMouseOver={hoverIn} onMouseOut={hoverOut}>
                 <a href="#" className="nav-link text-white">
                 <i class="fa-brands fa-rocketchat fa-lg icons"></i>
                   <span className="fs-5">Chat with Mitra</span>
                 </a>
               </li>
-              <li>
-                <a href="#" className="nav-link text-white">
+              <li onMouseOver={hoverIn} onMouseOut={hoverOut}>
+                <Link to='/posts' className='nav-link'>
                 <i class="fa-solid fa-file-image fa-lg icons"></i>
                   <span className="fs-5">Posts</span>
-                </a>
+                </Link>
               </li>
-              <li>
+              <li onMouseOver={hoverIn} onMouseOut={hoverOut}>
                 <a href="#" className="nav-link text-white">
                 <i class="fa-solid fa-people-robbery fa-lg icons"></i>
                   <span className="fs-5">Socialize</span>
                 </a>
               </li>
-              <li>
+              <li onMouseOver={hoverIn} onMouseOut={hoverOut}>
                 <a href="#" className="nav-link text-white">
                 <i class="fa-solid fa-user-doctor fa-lg icons"></i>
                   <span className="fs-5">Consult Doctor</span>
                 </a>
               </li>
               <hr/>
-              <li>
+              <li onMouseOver={hoverIn} onMouseOut={hoverOut}>
                 <a href="#" className="nav-link text-white">
                 <i class="fa-solid fa-gear fa-lg icons"></i>
                   <span className="fs-5">Settings</span>
