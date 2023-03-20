@@ -90,7 +90,7 @@
 }       
 
 /* Homepage */
-.header {
+.header1 {
 	min-height: 100vh !important;
 	min-width: 100%;
 	background-image: linear-gradient(
@@ -99,6 +99,23 @@
 			rgba(0, 0, 0, 0.25)
 		),
 		url(../images/cover1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+  z-index: -1;
+}
+
+.header2 {
+	min-height: 100vh !important;
+	min-width: 100%;
+	background-image: linear-gradient(
+			45deg,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)
+		),
+		url(../images/cover2.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -119,16 +136,12 @@
 }
 
 /* Sidebar */
-.nav-link{
-  color: #FFFFFF;
-}
-
-.nav-link::after{
+.nav-link, .nav-link:hover, .nav-link::after{
   color: #FFFFFF;
 }
 
 .nav-item-hover{
-  background: -webkit-linear-gradient(rgb(244, 213, 0), rgb(255,13, 0));
+  background: -webkit-linear-gradient(#AD7BE9 , #3E54AC);
   -webkit-background-clip: fill;
   color: #FFFFFF;
   border-radius: 0.5rem;

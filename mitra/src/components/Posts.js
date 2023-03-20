@@ -10,11 +10,11 @@ const Posts = (props) => {
     })
     return (
         <div>
-            <div className='left-pane header'>
-            </div>
-            <div className='right-pane'>
-                <div className='row p-3'>{RenderPost}</div>
-            </div>
+            <section className='header2'>
+                <div className='right-pane'>
+                    <div className='row p-3'>{RenderPost}</div>
+                </div>
+            </section>
         </div>
     )
 }

@@ -5,7 +5,7 @@ import Footer from './Footer';
 const HomePage = () => {
     return (
         <div>
-            <section class="header">
+            <section class="header1">
                 <div class="container-fluid align-items-center justify-content-between right-pane" style={{minHeight:"100vh"}}>
                     <h1><strong>Hey,<br></br>Mitra</strong></h1>
                 </div>
